@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>NIK</label>
+        <input type="text" name="NIK" placeholder="NIK"><br>
+
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama lengkap" placeholder="Nama Lengkap"><br>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email"><br>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password"><br>
+
+        <label>Jenis Kelamin</label><br>
+        <input type="radio" id="jk" name="jk" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label><br>
+        <input type="radio" id="jk" name="jk" value="perempuan">
+        <label for="perempuan">Perempuan</label><br>
+
+        <label>Agama</label>
+        <select name="agama">
+            <option value="hindu">Hindu</option>
+            <option value="islam">Islam</option>
+            <option value="buddha">Buddha</option>
+            <option value="kristen">Kristen Protestan</option>
+            <option value="katolik">Katolik</option>
+            <option value="konghucu">Konghucu</option>
+        </select>
+        <br>
+        <label>Hobi</label><br>
+        <input type="checkbox" id="sepeda" name="sepeda" value="bersepeda">
+        <label for="sepeda">Bersepeda</label><br>
+        <input type="checkbox" id="sepakbola" name="sepakbola" value="sepakbola">
+        <label for="sepakbola">Sepak Bola</label><br>
+        <input type="checkbox" id="baca" name="baca" value="baca">
+        <label for="baca">Membaca</label><br>
+        <label>File Foto</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        <br>
+        <button>Kirim</button>
+    </form>
+</body>
+</html>
