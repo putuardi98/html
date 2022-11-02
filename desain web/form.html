@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML</title>
+</head>
+<body>
+	<h2>form pendaftran</h2>
+	<form>
+		<label>Nik</label>
+		<input type="text" name="NIK" placeholder="NIK"><br>
+		
+		<label>Nama lengkap</label>
+		<input type="text" name="namaLengkap" placeholder="namaLengkap"><br>
+
+		<label>tanggal lahir</label>
+		<input type="date" name="tgl_lahir"><br>
+
+		<label>email</label>
+		<input type="email" name="email" placeholder="email"><br>
+
+		<label>password</label>
+		<input type="password" name="password" placeholder="Password"><br>
+
+		<label>jenis kelamin</label>
+		<input type="radio" id="jk" name="jk" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label><br>
+        <input type="radio" id="jk" name="jk" value="perempuan">
+        <label for="perempuan">Perempuan</label><br>
+
+        <label>agama</label>
+        <select name="agama">
+			    <option value="hindu">Hindu</option>
+			    <option value="islam">Islam</option>
+			    <option value="buddha">Buddha</option>
+			    <option value="kristen">Kristen Protestan</option>        
+			    <option value="katolik">Katolik</option>
+			    <option value="konghucu">Konghucu</option>        
+        </select>
+        <br>
+        <label>hobi</label><br>
+        <input type="checkbox" id="sepeda" name="sepeda" value="bersepeda">
+		<label for="sepeda">Bersepeda</label><br>
+		<input type="checkbox" id="sepakbola" name="sepakbola" value="sepakbola">
+		<label for="sepakbola">Sepak Bola</label><br>
+		<input type="checkbox" id="baca" name="baca" value="baca">
+		<label for="baca">Membaca</label><br>
+
+		<label>file foto</label>
+		<input type="file" 
+		id="avatar" name="avatar" 
+		accept="image/png, image/jpeg">		
+
+		<br>
+		<label>mesin pencarian</label> 
+		<input type="search" name="cari"placeholder="kata pencarian....">
+		<button>cari</button> <br>
+
+		<label>input url</label>
+		<input type="url" name="url"><br>
+
+		<label>alamat</label>
+		<textarea rows="5" cols="20" name="alamat"></textarea><br>
+
+		<label>jumlah barang yang dibeli</label>
+		<input type="number" name="number"><br>
+
+		<button>kirim</button>
+	</form>
+</body>
+</html>
